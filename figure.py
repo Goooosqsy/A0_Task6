@@ -10,4 +10,5 @@ colors = ['pink','green','blue','yellow']
 
 plt.pie(data , radius=1.0,pctdistance = 0.8, labels = labels ,colors = colors, startangle=0,autopct='%1.1f%%')
 plt.pie(x_0, radius=0.6,colors = 'w')
+
 plt.show()
